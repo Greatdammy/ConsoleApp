@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Recap\Library.Recap.csproj" />
+  </ItemGroup>
+
 </Project>

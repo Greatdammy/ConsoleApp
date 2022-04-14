@@ -1,19 +1,16 @@
-﻿using System;
+﻿using Library.Recap;
+using System;
 
 namespace ConsoleApp.Recap
 {
     public  class Program
     {
-        static void Main()
+        public static void Main()
         {
-            PrintNumbers(1, 2, 3, 4,5);
+
+            Animal animal = new Animal() {Name = "Dog", Age = 70};
+            
         }
-        public static void PrintNumbers(params int[] numbers)
-        {
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine(numbers[i]);
-            }
-        }
+        
     }
 }
